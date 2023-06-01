@@ -12,27 +12,17 @@
     font-size: 18px;
     font-weight: bold;
     color: #d1411e;
+    text-align: center;
 }
 
 .price {
     font-size: 18px;
     font-weight: bold;
     color: #666;
+    text-align: center;
 }
 
 .desc {
     text-align: center;
     color: #777;
-}
-
-.classic {
-    text-align: center;
-}
-
-.veggie {
-    text-align: center;
-}
-
-.pepperoni {
-    text-align: center;
 }
