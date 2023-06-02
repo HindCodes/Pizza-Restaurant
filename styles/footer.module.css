@@ -35,3 +35,13 @@
     font-size: 45px;
     color: rgb(211, 211, 211);
 }
+
+.mapCard {
+    flex: 1;
+}
+
+.map {
+    width: 600;
+    height: 450;
+    border: 0;
+}

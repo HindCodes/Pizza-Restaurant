@@ -47,9 +47,18 @@ const Footer = () => {
                         <br /> 11:00AM - 1:00AM
                     </p>
                 </div>
+                <div className={styles.mapCard}>
+                    <iframe className={styles.map}
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.2528001948!2d-74.14448716423327!3d40.69763123328609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1685738700380!5m2!1sen!2sus"
+                        width={600}
+                        height={450}
+                        allowFullScreen
+                    >
+                    </iframe>
+                </div>
             </div>
         </div>
     )
 }
 
-export default Footer
+export default Footer;

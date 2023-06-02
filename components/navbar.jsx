@@ -1,6 +1,7 @@
 import styles from "../styles/navbar.module.css"
 import Image from 'next/image';
 import { useSelector } from "react-redux";
+import Link from "next/link";
 
 const Navbar = () => {
 
@@ -25,9 +26,13 @@ const Navbar = () => {
             </div>
             <div className={styles.item}>
                 <ul className={styles.list}>
-                    <li className={styles.listItem}>Homepage</li>
-                    <li className={styles.listItem}>Products</li>
+                    <Link href="/" passHref>
+                        <li className={styles.listItem}>Homepage</li>
+                    </Link>
                     <li className={styles.listItem}>Menu</li>
+                    <Link href="/admin/login" passHref>
+                        <li className={styles.listItem}>Login</li>
+                    </Link>
                     <Image
                         src="/img/logo.svg"
                         width={100}
@@ -39,19 +44,21 @@ const Navbar = () => {
                     <li className={styles.listItem}>Contact</li>
                 </ul>
             </div>
-            <div className={styles.item}>
-                <div className={styles.cart}>
-                    <Image
-                        src="/img/cart.png"
-                        width={30}
-                        height={30}
-                        alt="logo"
-                    />
-                    <div className={styles.counter}>{quantity}</div>
+            <Link href="/cart" passHref>
+                <div className={styles.item}>
+                    <div className={styles.cart}>
+                        <Image
+                            src="/img/cart.png"
+                            width={30}
+                            height={30}
+                            alt="logo"
+                        />
+                        <div className={styles.counter}>{quantity}</div>
+                    </div>
                 </div>
-            </div>
+            </Link>
         </div>
     );
 };
 
-export default Navbar
+export default Navbar;

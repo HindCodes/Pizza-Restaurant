@@ -7,7 +7,8 @@ const PizzaList = ({ pizzaList }) => {
         <div className={styles.container}>
             <h1 className={styles.title}>THE BEST PIZZA IN TOWN</h1>
             <p className={styles.desc}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit atque ab qui esse facere mollitia, id quo libero. Exercitationem, fugit maxime soluta obcaecati aliquid explicabo quae adipisci illo. Suscipit, eaque.
+                Are you hungry for pizza? Well you came to the right place! Look no further as you will find more than your pizza cravings can handle! Choose from our many AMAZING options and order now!
+                While you wait, just imagine all the delicious flavors prepared to the BEST standards. Not convinced? Taste it for yourself!
             </p>
             <div className={styles.wrapper}>
                 {pizzaList.map((pizza) => (
