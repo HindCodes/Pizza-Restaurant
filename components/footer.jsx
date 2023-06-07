@@ -16,22 +16,22 @@ const Footer = () => {
                 <div className={styles.card}>
                     <h1 className={styles.title}>FIND OUR RESTAURANTS</h1>
                     <p className={styles.text}>
-                        1234 St. Pizzeria #456
+                        1234 St. Pizzeria #123
                         <br /> NewYork, 85022
                         <br /> (123) 456-7890
                     </p>
                     <p className={styles.text}>
-                        1234 St. Pizzeria #456
+                        4567 St. Pizzeria #456
                         <br /> NewYork, 85022
                         <br /> (123) 456-7890
                     </p>
                     <p className={styles.text}>
-                        1234 St. Pizzeria #456
+                        7891 St. Pizzeria #789
                         <br /> NewYork, 85022
                         <br /> (123) 456-7890
                     </p>
                     <p className={styles.text}>
-                        1234 St. Pizzeria #456
+                        1011 St. Pizzeria #101
                         <br /> NewYork, 85022
                         <br /> (123) 456-7890
                     </p>
