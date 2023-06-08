@@ -45,7 +45,7 @@ const Cart = () => {
                     currency: currency,
                 },
             });
-        }, [currency, showSpinner]);
+        }, [currency, showSpinner, dispatch, options]);
 
         return (
             <>
@@ -132,7 +132,9 @@ const Cart = () => {
                                     <span className={styles.quantity}>{product.quantity}</span>
                                 </td>
                                 <td>
-                                    <span className={styles.total}>${product.price * product.quantity}</span>
+                                    <span className={styles.total}>
+                                        ${product.price * product.quantity}
+                                    </span>
                                 </td>
                             </tr>
                         ))}
@@ -162,7 +164,7 @@ const Cart = () => {
                             <PayPalScriptProvider
                                 options={{
                                     "client-id":
-                                        "AcUmxQ-2c9bL7_sb0SKx8bWc4x3UYFbpjhgZ18ZIBC6wYwWyuLW-QkW-FV5SC9Gsb9Dq-E76HIutSRTM",
+                                        "ATTL8fDJKfGzXNH4VVuDy1qW4_Jm8S0sqmnUTeYtWpqxUJLnXIn90V8YIGDg-SNPaB70Hg4mko_fde4-",
                                     components: "buttons",
                                     currency: "USD",
                                     "disable-funding": "credit,card,p24",
