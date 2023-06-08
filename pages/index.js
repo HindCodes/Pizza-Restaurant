@@ -7,6 +7,7 @@ import AddButton from "../components/addbutton";
 import Featured from "../components/featured";
 import PizzaList from "../components/pizzalist";
 import styles from "../styles/Home.module.css";
+import { Buffer } from 'buffer'
 
 export default function Home({ pizzaList, admin }) {
   const [close, setClose] = useState(true);
