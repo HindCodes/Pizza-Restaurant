@@ -7,7 +7,7 @@ const MenuPage = () => {
       <div className={styles.container}>
         <h1 className={styles.header}>MENU</h1>
             <p className={styles.info}>
-                Check out all of our delicious mouthwatering menu items here! Not only do we sell our renouned pizza but also lots other delicious options!
+                Check out all of our delicious mouthwatering menu items here!
             </p>
         <div className={styles.wrapper}>
             <div className={styles.card}>
