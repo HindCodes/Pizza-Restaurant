@@ -1,4 +1,4 @@
-## 🔥 🍕 Check out this Pizza Restauratnt App with many interactive features! 🍕 🔥
+## 🍕Check out this Pizza Restauratnt App with many interactive features!🍕
 
 
 ## 👉The Feature Page:
