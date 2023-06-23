@@ -1,19 +1,8 @@
 ## 🍕Pizza Restaurant App🍕
 
-I built this project following a tutorial to further expand my knowledge on new technologies such as React Next.js, MongoDB, & Postman. In building this project I learned: 
+I built this project following a tutorial to further expand my knowledge on new technologies such as React, Next.js, MongoDB, & Postman. In building this project I learned: 
 
-- I’m currently working on Full Stack Realtime Chat Messaging App with Authentication & SMS Notifications
-
-- I’m hoping to get hired as a Full Stack Web Developer
-
-- All of my projects are available at https://github.com/HindCodes
-
-- I am hoping to create a blog explaining coding basics! Stay tuned...
-
-- Ask me about react, javascript,
-
-- How to reach me hindcodes101@gmail.com
-
+- How to create a Next.js App and utilize different node packages....
 
 ## 👉The Feature Page:
 ![image](https://github.com/HindCodes/restaurant/assets/121991962/91671b8b-6761-4bd1-9b42-73128e4941eb)
