@@ -1,4 +1,18 @@
-## 🍕Check out this Pizza Restauratnt App with many interactive features!🍕
+## 🍕Pizza Restaurant App🍕
+
+I built this project following a tutorial to further expand my knowledge on new technologies such as React Next.js, MongoDB, & Postman. In building this project I learned: 
+
+- I’m currently working on Full Stack Realtime Chat Messaging App with Authentication & SMS Notifications
+
+- I’m hoping to get hired as a Full Stack Web Developer
+
+- All of my projects are available at https://github.com/HindCodes
+
+- I am hoping to create a blog explaining coding basics! Stay tuned...
+
+- Ask me about react, javascript,
+
+- How to reach me hindcodes101@gmail.com
 
 
 ## 👉The Feature Page:
@@ -23,7 +37,7 @@
 ![image](https://github.com/HindCodes/restaurant/assets/121991962/89c1ab96-e908-4373-8949-2c22c01059de)
 
 
-## ⭐️Through the admin portal you can manage orders, products, as well as edit or delete menu items!⭐️
+⭐️Through the admin portal you can manage orders, products, as well as edit or delete menu items!⭐️
 
 
 ## 👉Admin Portal:
@@ -33,5 +47,3 @@
 ## 👉Manage Orders:
 ![image](https://github.com/HindCodes/restaurant/assets/121991962/045c019e-f71e-4563-8394-aff089d96d5d)
 
-
-## 👇Check out the web app yourself with this link!👇
