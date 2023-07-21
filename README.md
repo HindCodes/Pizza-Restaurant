@@ -1,7 +1,5 @@
 ## 🍕Pizza Restaurant App🍕
 
-I built this project following a tutorial to further expand my knowledge on new technologies such as React, Next.js, MongoDB, & Postman.
-
 ## 👉The Feature Page:
 ![image](https://github.com/HindCodes/restaurant/assets/121991962/91671b8b-6761-4bd1-9b42-73128e4941eb)
 ![image](https://github.com/HindCodes/restaurant/assets/121991962/5f0405fe-eb32-44fb-b293-266580af4e8f)
